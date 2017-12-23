@@ -86,7 +86,7 @@ brew cask install --appdir="/Applications" daisydisk
 brew cask install --appdir="/Applications" google-chrome
 brew cask install --appdir="/Applications" the-unarchiver
 brew cask install --appdir="/Applications" android-file-transfer
-
+brew cask install --appdir="/Applications" google-backup-and-sync
 
 # Development
 echo ----------------------------------
@@ -128,6 +128,13 @@ rm -f -r /Library/Caches/Homebrew/*
 echo ----------------------------------
 echo Restoring your files ♻️
 echo ----------------------------------
+
+# Setting google drive as backup source
+echo '[storage]
+engine = google_drive' >   ~/.mackup.cfg
+
+# log in before restore
+ open -a Backup\ and\ Sync
 
 mackup restore
 
