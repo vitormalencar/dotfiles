@@ -70,8 +70,6 @@ echo ----------------------------------
 echo Installing homebrew cask 🥚
 echo ----------------------------------
 
-brew install caskroom/cask/brew-cask
-
 # install personal apps
 echo ----------------------------------
 echo Installing personal Applications 👩‍🚀
