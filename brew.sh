@@ -133,7 +133,7 @@ echo '[storage]
 engine = google_drive' >   ~/.mackup.cfg
 
 # log in before restore
- open -a Backup\ and\ Sync
+open -a Backup\ and\ Sync
 
 mackup restore
 
