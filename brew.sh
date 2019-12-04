@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# VitorAlencar cool Brewfile
+# VitorAlencar 🍺 Brewfile
 echo ----------------------------------
 echo Install all AppStore Apps at first! 🚨
 echo ----------------------------------
@@ -78,15 +78,14 @@ echo ----------------------------------
 brew cask install --appdir="/Applications" vlc
 brew cask install --appdir="/Applications" steam
 brew cask install --appdir="/Applications" skype
+brew cask install --appdir="/Applications" setapp
 brew cask install --appdir="/Applications" spotify
 brew cask install --appdir="/Applications" firefox
 brew cask install --appdir="/Applications" caffeine
 brew cask install --appdir="/Applications" polymail
-brew cask install --appdir="/Applications" daisydisk
 brew cask install --appdir="/Applications" google-chrome
 brew cask install --appdir="/Applications" the-unarchiver
 brew cask install --appdir="/Applications" android-file-transfer
-brew cask install --appdir="/Applications" google-backup-and-sync
 
 # Development
 echo ----------------------------------
@@ -96,7 +95,6 @@ echo ----------------------------------
 brew cask install --appdir="/Applications" slack
 brew cask install --appdir="/Applications" iterm2
 brew cask install --appdir="/Applications" postman
-brew cask install --appdir="/Applications" gpgtools
 brew cask install --appdir="/Applications" visual-studio-code
 
 
@@ -118,7 +116,7 @@ brew cask install quicklookase qlvideo
 
 # cleanup
 echo ----------------------------------
-echo Cleaning directoryes 🗑
+echo Cleaning directories 🗑
 echo ----------------------------------
 
 brew cleanup --force
@@ -147,9 +145,8 @@ yarn global add surge
 yarn global add ngrok
 yarn global add eslint
 yarn global add fixpack
-yarn global add babel-cli
 yarn global add npm-check
-yarn global add speed-test
+yarn global add json-server
 yarn global add http-server
 yarn global add browser-sync
 yarn global add source-map-explorer
