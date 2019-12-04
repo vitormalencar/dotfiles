@@ -86,6 +86,7 @@ brew cask install --appdir="/Applications" polymail
 brew cask install --appdir="/Applications" google-chrome
 brew cask install --appdir="/Applications" the-unarchiver
 brew cask install --appdir="/Applications" android-file-transfer
+brew cask install --appdir="/Applications" google-backup-and-sync
 
 # Development
 echo ----------------------------------
