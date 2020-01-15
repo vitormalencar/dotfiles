@@ -44,6 +44,7 @@ brew install homebrew/dupes/grep
 brew install homebrew/dupes/screen
 
 # general
+brew install z
 brew install git
 brew install rcm
 brew install vim
@@ -52,11 +53,14 @@ brew install nvm
 brew install tmux
 brew install node
 brew install yarn
+brew install tree
 brew install ngrep
 brew install ctags
 brew install mackup
 brew install openssl
+brew install progress
 brew install the_silver_searcher
+brew install zsh-syntax-highlighting
 brew install reattach-to-user-namespace
 
 # Image manipulation
@@ -76,7 +80,7 @@ echo Installing personal Applications 👩‍🚀
 echo ----------------------------------
 
 brew cask install --appdir="/Applications" vlc
-brew cask install --appdir="/Applications" steam
+# brew cask install --appdir="/Applications" steam
 brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" setapp
 brew cask install --appdir="/Applications" spotify
@@ -149,5 +153,20 @@ yarn global add fixpack
 yarn global add npm-check
 yarn global add json-server
 yarn global add http-server
+yarn global add pure-prompt
 yarn global add browser-sync
 yarn global add source-map-explorer
+
+# Some minor Personal touches
+echo ----------------------------------
+echo Setting my Wallpaper 🖼
+echo ----------------------------------
+
+cp init/wallpaper.jpg /Users/$USER/
+sqlite3 ~/Library/Application\ Support/Dock/desktoppicture.db "UPDATE data SET value='/Users/${USER}/wallpaper.jpg';"
+
+echo ----------------------------------
+echo Installing Dev Fonts  🖼
+echo ----------------------------------
+
+rsync --progress /init/fonts/* ~/Library/Fonts
