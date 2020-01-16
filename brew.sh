@@ -132,14 +132,6 @@ echo ----------------------------------
 echo Restoring your files ♻️
 echo ----------------------------------
 
-# Setting google drive as backup source
-echo '[storage]
-engine = google_drive' >   ~/.mackup.cfg
-
-# log in before restore
-open -a Backup\ and\ Sync
-
-mackup restore
 
 # YARN development packages
 echo ----------------------------------
