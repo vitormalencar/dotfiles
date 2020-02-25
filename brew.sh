@@ -80,7 +80,6 @@ echo Installing personal Applications 👩‍🚀
 echo ----------------------------------
 
 brew cask install --appdir="/Applications" vlc
-# brew cask install --appdir="/Applications" steam
 brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" setapp
 brew cask install --appdir="/Applications" spotify
@@ -132,7 +131,6 @@ echo ----------------------------------
 echo Restoring your files ♻️
 echo ----------------------------------
 
-
 # YARN development packages
 echo ----------------------------------
 echo Install YARN 😺 global dependecies 🔥
@@ -148,14 +146,6 @@ yarn global add http-server
 yarn global add pure-prompt
 yarn global add browser-sync
 yarn global add source-map-explorer
-
-# Some minor Personal touches
-echo ----------------------------------
-echo Setting my Wallpaper 🖼
-echo ----------------------------------
-
-cp init/wallpaper.jpg /Users/$USER/
-sqlite3 ~/Library/Application\ Support/Dock/desktoppicture.db "UPDATE data SET value='/Users/${USER}/wallpaper.jpg';"
 
 echo ----------------------------------
 echo Installing Dev Fonts  🖼
