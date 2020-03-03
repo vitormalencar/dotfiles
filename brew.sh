@@ -54,6 +54,7 @@ brew install tmux
 brew install node
 brew install yarn
 brew install tree
+brew install gnupg
 brew install ngrep
 brew install ctags
 brew install mackup
@@ -62,6 +63,8 @@ brew install progress
 brew install the_silver_searcher
 brew install zsh-syntax-highlighting
 brew install reattach-to-user-namespace
+
+
 
 # Image manipulation
 brew install imagemagick
