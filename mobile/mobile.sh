@@ -19,8 +19,9 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 echo ----------------------------------
 echo Installing Mobile Env 📱
 echo ----------------------------------
-
-brew install watchman
+brew tap wix/brew
 brew tap AdoptOpenJDK/openjdk
+brew install watchman
 brew cask install adoptopenjdk8
-
+brew install applesimutils
+npm install -g detox-cli
