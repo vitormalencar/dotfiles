@@ -119,6 +119,7 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
+
 # Trackpad: map bottom right corner to right-click
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadCornerSecondaryClick -int 2
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
@@ -759,6 +760,10 @@ defaults write com.google.Chrome.canary DisablePrintPreview -bool true
 # Expand the print dialog by default
 defaults write com.google.Chrome PMPrintingExpandedStateForPrint2 -bool true
 defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool true
+
+# Disable mouse acceleration
+defaults write .GlobalPreferences com.apple.mouse.scaling -1
+
 
 ###############################################################################
 # Twitter.app                                                                 #
