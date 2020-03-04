@@ -125,7 +125,7 @@ echo ----------------------------------
 echo Cleaning directories 🗑
 echo ----------------------------------
 
-brew cleanup --force
+brew cleanup
 rm -f -r /Library/Caches/Homebrew/*
 
 # Restore .filles
