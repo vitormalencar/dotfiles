@@ -46,7 +46,6 @@ brew install screen
 # general
 brew install z
 brew install git
-brew install rcm
 brew install vim
 brew install zsh
 brew install nvm
