@@ -101,6 +101,7 @@ echo ----------------------------------
 brew cask install --appdir="/Applications" slack
 brew cask install --appdir="/Applications" iterm2
 brew cask install --appdir="/Applications" postman
+brew cask install --appdir="/Applications" sublime-merge
 brew cask install --appdir="/Applications" visual-studio-code
 
 
