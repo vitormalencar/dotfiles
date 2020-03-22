@@ -84,6 +84,7 @@ echo ----------------------------------
 brew cask install --appdir="/Applications" vlc
 brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" setapp
+brew cask install --appdir="/Applications" notion
 brew cask install --appdir="/Applications" spotify
 brew cask install --appdir="/Applications" firefox
 brew cask install --appdir="/Applications" caffeine
