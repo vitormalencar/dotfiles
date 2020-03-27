@@ -38,10 +38,11 @@ echo ----------------------------------
 echo installing Core packages 📦
 echo ----------------------------------
 
+brew install vim
 brew install wget
-brew install vim --override-system-vi # Install more recent versions of some OS X tools.
 brew install grep
 brew install screen
+brew install graphviz
 
 # general
 brew install z
