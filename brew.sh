@@ -38,10 +38,11 @@ echo ----------------------------------
 echo installing Core packages 📦
 echo ----------------------------------
 
+brew install vim
 brew install wget
-brew install vim --override-system-vi # Install more recent versions of some OS X tools.
 brew install grep
 brew install screen
+brew install graphviz
 
 # general
 brew install z
@@ -85,6 +86,7 @@ echo ----------------------------------
 brew cask install --appdir="/Applications" vlc
 brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" setapp
+brew cask install --appdir="/Applications" notion
 brew cask install --appdir="/Applications" spotify
 brew cask install --appdir="/Applications" firefox
 brew cask install --appdir="/Applications" caffeine
