@@ -59,6 +59,7 @@ brew install ctags
 brew install mackup
 brew install openssl
 brew install progress
+brew cask install dozer
 brew install the_silver_searcher
 brew install zsh-syntax-highlighting
 brew install reattach-to-user-namespace
