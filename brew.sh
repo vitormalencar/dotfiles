@@ -60,7 +60,6 @@ brew install ctags
 brew install mackup
 brew install openssl
 brew install progress
-brew cask install dozer
 brew install the_silver_searcher
 brew install zsh-syntax-highlighting
 brew install reattach-to-user-namespace
@@ -85,17 +84,19 @@ echo ----------------------------------
 
 brew cask install --appdir="/Applications" vlc
 brew cask install --appdir="/Applications" skype
+brew cask install --appdir="/Applications" dozer
 brew cask install --appdir="/Applications" setapp
 brew cask install --appdir="/Applications" notion
 brew cask install --appdir="/Applications" spotify
 brew cask install --appdir="/Applications" firefox
 brew cask install --appdir="/Applications" caffeine
 brew cask install --appdir="/Applications" polymail
+brew cask install --appdir="/Applications" rectangle
 brew cask install --appdir="/Applications" google-chrome
 brew cask install --appdir="/Applications" the-unarchiver
+brew cask install --appdir="/Applications" suspicious-package
 brew cask install --appdir="/Applications" android-file-transfer
 brew cask install --appdir="/Applications" google-backup-and-sync
-
 # Development
 echo ----------------------------------
 echo Installing Development Apps 💻
@@ -121,7 +122,6 @@ brew cask install qlprettypatch
 brew cask install quicklook-csv
 brew cask install webpquicklook
 brew cask install quicklook-json
-brew cask install suspicious-package
 brew cask install quicklookase qlvideo
 
 # cleanup
